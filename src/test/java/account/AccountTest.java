@@ -28,6 +28,7 @@ public class AccountTest {
         assertThat(account.getBalance()).isEqualTo(11000);
     }
 
+
     @Test
     public void testWithdraw() throws Exception {
         account.withdraw(1000);
